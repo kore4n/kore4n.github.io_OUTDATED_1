@@ -21,7 +21,8 @@ export default function Home() {
           </div>
           <br></br>
           <div>
-            I've previously worked at <LinkText link="http://www.weldrickanimalhospital.com/" linkText = "Weldrick Animal Hospital"/> as a vet assistant intern.
+            {/* <LinkText link="http://www.weldrickanimalhospital.com/" linkText = "Weldrick Animal Hospital"/> */}
+            I've previously worked at  as a vet assistant intern.
           </div>
         </div>
         <Links/>
