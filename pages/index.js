@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <div>
             {/* <LinkText link="http://www.weldrickanimalhospital.com/" linkText = "Weldrick Animal Hospital"/> */}
-            I have previously worked at weldrick animal hospital as a vet assistant intern.
+            I've previously worked at weldrick animal hospital as a vet assistant intern.
           </div>
         </div>
         <Links/>
