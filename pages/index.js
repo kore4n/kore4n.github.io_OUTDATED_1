@@ -56,6 +56,9 @@ export default function Home() {
 
           Thanks for looking around! :)
         </div> */}
+        <div className=' ml-20 py-10'>
+          
+        </div>
         <Links/>
     </div>
   )
