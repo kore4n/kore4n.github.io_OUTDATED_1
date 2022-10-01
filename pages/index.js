@@ -19,7 +19,6 @@ export default function Home() {
           <div>
             The Header
           </div>
-          <br></br>
           <div>
             {/* <LinkText link="http://www.weldrickanimalhospital.com/" linkText = "Weldrick Animal Hospital"/> */}
             I've previously worked at  as a vet assistant intern.
