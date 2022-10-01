@@ -35,31 +35,25 @@ export default function Home() {
         <Links/>
       </div> */}
       <div className='bg-main-background min-h-screen'>
-      <div>
-        Ok
-      </div>
         <div>
           Header
         </div>
-          {/* <div className=' ml-20 py-10'>
-            Hi, I'm Jason Kwan!
+        <div className=' ml-20 py-10'>
+        Hi, I'm Jason Kwan!
 
-            I'm a third-year student at the University of Toronto where
-            I am pursuing a bachelor's degree in Computer Science with a minor
-            in Game Development.
+        I'm a third-year student at the University of Western Ontario where
+        I am pursuing a bachelor's degree in Computer Science with a minor
+        in Game Development.
 
-            I've previously worked at <a className=' text-main-blue' href="http://www.weldrickanimalhospital.com/">Weldrick Animal Hospital</a> as a vet assistant intern,
-            and studied Medical Science, but switched after
-            realizing computer science was my passion.
+        I've previously worked at <a className=' text-main-blue' href="http://www.weldrickanimalhospital.com/">Weldrick Animal Hospital</a> as a vet assistant intern,
+        and studied Medical Science, but switched after
+        realizing computer science was my passion.
 
-            On this website you'll find some of my projects and my resume.
+        On this website you'll find some of my projects and my resume.
 
-            Thanks for looking around! :)
-          </div> */}
-          <div className=' ml-20 py-10'>
-            Hello I am Jason
-          </div>
-          <Links/>
+        Thanks for looking around! :)
+        </div>
+        <Links/>
       </div>
     </div>
   )
