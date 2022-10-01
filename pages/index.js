@@ -40,6 +40,7 @@ export default function Home() {
         </div>
         <div className=' ml-20 py-10'>
           This is just a test
+          I've previously worked at <a className=' text-main-blue' href="http://www.weldrickanimalhospital.com/">Weldrick Animal Hospital</a> as a vet assistant intern.
         </div>
         <Links/>
       </div>
