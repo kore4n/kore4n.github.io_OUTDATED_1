@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>Jason Kwan</title>
         <meta name="description" content="Portfolio" />
@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <div className='flex-col bg-main-background min-h-screen'>
         <div>
-
+          Header
         </div>
         <div className=' ml-20 py-10'>
           Hi, I'm Jason Kwan!
