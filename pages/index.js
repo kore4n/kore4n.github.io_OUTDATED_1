@@ -13,7 +13,10 @@ export default function Home() {
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/scared-hamster.ico" />
       </Head>
-      <div className='flex-col bg-main-background min-h-screen'>
+      <div>
+        Ok
+      </div>
+      {/* <div className='flex-col bg-main-background min-h-screen'>
         <div>
           Header
         </div>
@@ -33,7 +36,7 @@ export default function Home() {
           Thanks for looking around! :)
         </div>
         <Links/>
-      </div>
+      </div> */}
     </div>
   )
 }
