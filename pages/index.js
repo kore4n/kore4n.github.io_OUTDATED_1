@@ -17,6 +17,13 @@ export default function Home() {
       <div className='bg-main-background min-h-screen'>
         <div className=' ml-20 py-10'>
           Empty
+          <div>
+            The Header
+          </div>
+          <div>
+            {/* <LinkText link="http://www.weldrickanimalhospital.com/" linkText = "Weldrick Animal Hospital"/> */}
+            I have previously worked at weldrick animal hospital as a vet assistant intern.
+          </div>
         </div>
         <Links/>
       </div>
