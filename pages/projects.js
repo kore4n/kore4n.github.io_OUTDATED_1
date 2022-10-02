@@ -1,9 +1,4 @@
-import Head from 'next/head';
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-import PageOpening from '../components/page-opening';
-import PageHeading from '../components/page-heading';
-import PageBody from '../components/page-body';
+
 
 export default function About() {
   return (
