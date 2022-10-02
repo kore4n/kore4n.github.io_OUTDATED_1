@@ -5,7 +5,9 @@ export default function LinkTextLocal(props){
     return (
         <>
             <Link href={props.link}>
-                {props.linkText}
+                <a className="text-main-blue hover:scale-110">
+                    {props.linkText}
+                </a>
             </Link>
         </>
     )
