@@ -6,6 +6,7 @@ import Links from '../components/links'
 import LinkText from '../components/link-text'
 import LinkTextLocal from '../components/link-text-local'
 import PageBody from '../components/page-body'
+import Emphasize from '../components/emphasize-text'
 
 export default function Home() {
   return (
@@ -36,9 +37,9 @@ export default function Home() {
             <br></br>
             <br></br>
 
-            I&apos;m a third-year student at the University of Western Ontario where
-            I am pursuing a bachelor&apos;s degree in Computer Science with a minor
-            in Game Development. I previously majored in Medical Sciences, but switched after realizing my passion for Computer Science.
+            I&apos;m a third-year student at the <Emphasize emphasis="University of Western Ontario"/> where
+            I am pursuing a bachelor&apos;s degree in <Emphasize emphasis="Computer Science"/>  with a minor
+            in <Emphasize emphasis="Game Development"/>. I previously majored in Medical Sciences, but switched after realizing my passion for Computer Science.
             <br></br>
             <br></br>
 
@@ -47,7 +48,7 @@ export default function Home() {
             <br></br>
             <br></br>
 
-            On this website you&apos;ll find some of my projects and my resume.
+            On this website you&apos;ll find some of my <LinkTextLocal link="projects" linkText="projects" /> and my <LinkTextLocal link="jkwanresume.pdf" linkText="resume" />.
             <br></br>
             <br></br>
 
