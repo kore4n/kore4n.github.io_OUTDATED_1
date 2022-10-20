@@ -2,11 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '../components/logo'
 import styles from '../styles/Home.module.css'
-import Links from '../components/links'
+import Socials from '../components/links'
 import LinkText from '../components/link-text'
 import LinkTextLocal from '../components/link-text-local'
 import PageBody from '../components/page-body'
 import Emphasize from '../components/emphasize-text'
+import Navbar from '../components/navbar'
+import Age from '../components/age'
 
 export default function Home() {
   return (
@@ -52,7 +54,9 @@ export default function Home() {
             <br></br>
             <br></br>
 
-            Thanks for looking around! :&#41;
+            Thanks for looking around! :D
+
+            <Age></Age>
           </div>
 
           <br></br>
@@ -65,9 +69,10 @@ export default function Home() {
             <br></br>
             You can find me on Github, LinkedIn, or Email Me!
           </div>
-          <Links/>
+          <Socials/>
         </div>
       </PageBody>
+
     </div>
   )
 }
