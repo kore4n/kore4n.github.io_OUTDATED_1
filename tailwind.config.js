@@ -7,10 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'main-background': '#1f1f1f',
+        'main-background': '#181E26',
         'main-blue': "#95d3ff",
       },
     },
   },
   plugins: [],
 }
+
+// old main background #1f1f1f
