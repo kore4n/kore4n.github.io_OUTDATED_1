@@ -11,8 +11,22 @@ export default function Projects() {
         <link rel="icon" href="/scared-hamster.ico" />
       </Head>
       <PageBody>
-        In Progress
-        <Footer></Footer>
+        <article className="grid h-full">
+          <div className=' h-24 border'>
+          </div>
+          <div className=' h-24 border'>
+          </div>
+          <div className=' h-24 border'>
+          </div>
+          <div className=' h-24 border'>
+          </div>
+        </article>
+        <article>
+        </article>
+        <article>
+        </article>
+        <article>
+        </article>
       </PageBody>
     </div>
   );

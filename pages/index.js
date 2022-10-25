@@ -61,7 +61,7 @@ export default function Home() {
             <br></br>
             <br></br>
             <ContentRow>
-              <Image className=' rounded-3xl' src="images/WesternUniversity.png" alt="university" width={400} height={240} ></Image>
+              <Image className='rounded-3xl' src="images/WesternUniversity.png" alt="university" width={400} height={240} ></Image>
               <Description>
                 I&apos;m a <Age/> year-old developer and third-year student at the <Emphasize emphasis="University of Western Ontario"/> where
                 I am pursuing a bachelor&apos;s degree in <Emphasize emphasis="Computer Science"/>  with a minor
@@ -76,7 +76,7 @@ export default function Home() {
                 In Spring 2019, I was a veterinarian assistant intern at <LinkText link="http://www.weldrickanimalhospital.com/" linkText="Weldrick Animal Hospital"/>.
                 For Summer 2023, I&apos;m currently looking for a position as a software engineering intern.
               </Description>
-              <Image className=' rounded-3xl' src="images/JHospital.jpg" alt="hospital" width={400} height={240} ></Image>
+              <Image className='rounded-3xl' src="images/JHospital.jpg" alt="hospital" width={400} height={240} ></Image>
             </ContentRow>
             <br></br>
             <br></br>
