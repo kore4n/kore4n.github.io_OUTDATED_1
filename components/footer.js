@@ -1,10 +1,10 @@
-import Socials from "./links";
+import Socials from "./socials";
 
 
 export default function Footer(){
     return (
-        <footer className=" grid place-items-center mt-auto mb-24">
-            <Socials classes="transition hover:scale-110 hover:fill-white duration-200" />
+        <footer className=" grid place-items-center mt-auto mb-24 pt-20">
+            <Socials/>
         </footer>
     )
 }

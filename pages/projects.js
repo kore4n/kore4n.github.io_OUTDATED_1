@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import PageBody from '../components/page-body'
-
+import Footer from '../components/footer';
 
 export default function Projects() {
   return (
@@ -10,17 +10,10 @@ export default function Projects() {
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/scared-hamster.ico" />
       </Head>
-      <div className='grid place-items-center'>
-      <div>
-          Hello
-      </div>
-        <div>
-            Hello
-        </div>
-        <div>
-            Hello
-        </div>
-      </div>
+      <PageBody>
+        In Progress
+        <Footer></Footer>
+      </PageBody>
     </div>
   );
 }

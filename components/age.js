@@ -12,7 +12,7 @@ export default function Age(){
     
     return (
         <span>
-            &quot; {age} year-old developer&quot;
+            {age}
         </span>
     )
 }

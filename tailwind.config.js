@@ -9,8 +9,12 @@ module.exports = {
       colors: {
         'main-background': '#181E26',
         'main-blue': "#95d3ff",
+        'main-cyan': "#22d3ee",
       },
     },
+    // fontFamily: {
+    //   'cubano': ''
+    // }
   },
   plugins: [],
 }
