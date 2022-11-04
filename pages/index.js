@@ -18,82 +18,60 @@ export default function Home() {
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/scared-hamster.ico" />
       </Head>
-      <PageBody>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+      <PageBody>        
           <PageMain>
-            <div className=" text-xl text-main-cyan ml-20">
-              (a little about me)
-            </div>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <Blast letter="F"/>
-            <Blast letter="O"/>
-            <Blast letter="R"/>
-            <Blast letter="M"/>
-            <Blast letter="E"/>
-            <Blast letter="R"/>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <Blast letter="C"/>
-            <Blast letter="H"/>
-            <Blast letter="I"/>
-            <Blast letter="L"/>
-            <Blast letter="D"/>
-            <Blast>
-              Former Child
-            </Blast>
-            
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <div className=' py-20'>
+              <div className=" text-xl text-main-cyan ml-20">
+                (a little about me)
+              </div>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              <Blast letter="S"/>
+              <Blast letter="O"/>
+              <Blast letter="F"/>
+              <Blast letter="T"/>
+              <Blast letter="W"/>
+              <Blast letter="A"/>
+              <Blast letter="R"/>
+              <Blast letter="E"/>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              <Blast letter="E"/>
+              <Blast letter="N"/>
+              <Blast letter="G"/>
+              <Blast letter="I"/>
+              <Blast letter="N"/>
+              <Blast letter="E"/>
+              <Blast letter="E"/>
+              <Blast letter="R"/>
+            </div> 
             <ContentRow>
-              <Image className='rounded-3xl' src="images/WesternUniversity.png" alt="university" width={400} height={240} ></Image>
+              <Image className="rounded-lg" src="images/jasonselfie.jpg" alt="selfie" width={768/2} height={1024/2} ></Image>
               <Description>
                 I&apos;m a <Age/> year-old developer and third-year student at the <Emphasize emphasis="University of Western Ontario"/> where
                 I am pursuing a bachelor&apos;s degree in <Emphasize emphasis="Computer Science"/>  with a minor
                 in <Emphasize emphasis="Game Development"/>. I previously majored in Medical Sciences, but switched after realizing my passion for Computer Science.
               </Description>
             </ContentRow>
-            <br></br>
-            <br></br>
-            <br></br>
             <ContentRow>
               <Description>
                 In Spring 2019, I was a veterinarian assistant intern at <LinkText link="http://www.weldrickanimalhospital.com/" linkText="Weldrick Animal Hospital"/>.
-                For Summer 2023, I&apos;m currently looking for a position as a software engineering intern.
+                
+                <span className="font-bold text-orange-500"> Currently, I am seeking internships for Summer 2023.</span>
               </Description>
-              <Image className='rounded-3xl' src="images/JHospital.jpg" alt="hospital" width={400} height={240} ></Image>
+              <Image className='rounded-lg' src="images/JHospital.jpg" alt="hospital" width={1600/3} height={1200/3} ></Image>
             </ContentRow>
-            <br></br>
-            <br></br>
-
-            <br></br>
-            <br></br>
-            <div className='grid place-items-center'>
+            <div className='grid place-items-center pt-24 pb-10'>
               <Description className="">
                 Thanks for looking around! :D
               </Description>
             </div>
-            
           </PageMain>
-
-          <br></br>
-          <br></br>          
-          <Footer></Footer>
+          <Footer/>
       </PageBody>
 
     </div>
