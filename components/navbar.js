@@ -2,12 +2,11 @@ import LinkTextLocal from "./link-text-local";
 
 
 export default function Navbar() {
-  let classes="text-main-cyan font-bold text-2xl hover:scale-110 duration-100"
+  let classes="text-main-cyan font-bold text-2xl hover:scale-110 duration-100 hover:text-teal-300"
 
     return (
-      <header className='pb-5 flex justify-between items-center'>
+      <header className='pb-6 pt-5 flex justify-between items-center px-40 bg-gradient-to-r from-blue-900 to-cyan-900'>
         <span className="text-7xl">
-          {/* <LinkTextLocal link="/" linkText="jkwan" /> */}
         </span>
         <nav>
           <ul className="flex gap-10">
@@ -18,11 +17,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               >resume</a>
             <LinkTextLocal link="projects" linkText="projects" />
-            <a 
-              className={classes}
-              href="https://kore4n.github.io/#socials">
-              contact
-            </a>
+            <LinkTextLocal link="/#socials" linkText="contact" />
           </ul>
         </nav>
       </header>

@@ -9,50 +9,43 @@ import Blast from '../components/blast'
 import Image from 'next/image'
 import ContentRow from '../components/content-row'
 import Description from '../components/description'
+import BlastWord from '../components/blast-word'
+import DivideBar from '../components/divide-bar'
+import SkillBox from '../components/skill-box'
+import Navbar from '../components/navbar'
+import ProjectBox from '../components/project-box'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Jason Kwan</title>
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/scared-hamster.ico" />
       </Head>
-      <PageBody>        
+      <PageBody>      
+          <span className="fixed pl-24 pt-6 text-2xl">JK</span>  
+          <Navbar/>
+          <div id="mainHeader" className=' pb-96 pt-48 bg-main-background'>
+            <div className=" text-xl text-main-cyan ml-20">
+              (an aspiring)
+            </div>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <BlastWord className="pl-10" word="SOFTWARE"/>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <BlastWord word="ENGINEER"/>
+          </div> 
           <PageMain>
-            <div className=' py-20'>
-              <div className=" text-xl text-main-cyan ml-20">
-                (a little about me)
-              </div>
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              <Blast letter="S"/>
-              <Blast letter="O"/>
-              <Blast letter="F"/>
-              <Blast letter="T"/>
-              <Blast letter="W"/>
-              <Blast letter="A"/>
-              <Blast letter="R"/>
-              <Blast letter="E"/>
-              &nbsp;
-              &nbsp;
-              &nbsp;
-              <Blast letter="E"/>
-              <Blast letter="N"/>
-              <Blast letter="G"/>
-              <Blast letter="I"/>
-              <Blast letter="N"/>
-              <Blast letter="E"/>
-              <Blast letter="E"/>
-              <Blast letter="R"/>
-            </div> 
             <ContentRow>
               <Image className="rounded-lg" src="images/jasonselfie.jpg" alt="selfie" width={768/2} height={1024/2} ></Image>
               <Description>
-                I&apos;m a <Age/> year-old developer and third-year student at the <Emphasize emphasis="University of Western Ontario"/> where
+                I&apos;m a <Age/> year-old Canadian developer and third-year student at the <Emphasize emphasis="University of Western Ontario"/> where
                 I am pursuing a bachelor&apos;s degree in <Emphasize emphasis="Computer Science"/>  with a minor
                 in <Emphasize emphasis="Game Development"/>. I previously majored in Medical Sciences, but switched after realizing my passion for Computer Science.
               </Description>
@@ -65,6 +58,30 @@ export default function Home() {
               </Description>
               <Image className='rounded-lg' src="images/JHospital.jpg" alt="hospital" width={1600/3} height={1200/3} ></Image>
             </ContentRow>
+            <DivideBar/>
+            <div className="text-center">
+              <BlastWord word="Skills"/>
+              <div className='grid grid-cols-2 max-w-2xl pt-20 ml-32'>
+                <SkillBox title="Technologies"/>
+                <SkillBox title="Tools"/>
+                <SkillBox title="Design"/>
+                <SkillBox title="Professional"/>
+              </div>
+              <DivideBar/>
+              <BlastWord word="Projects"/>
+              <div className='grid grid-cols-3 max-w-6xl pt-20 m-auto'>
+                <ProjectBox/>
+                <ProjectBox/>
+                <ProjectBox/>
+                <ProjectBox/>
+                <ProjectBox/>
+                <ProjectBox/>
+              </div>
+              <div>
+
+              </div>
+            </div>
+            
             <div className='grid place-items-center pt-24 pb-10'>
               <Description className="">
                 Thanks for looking around! :D
@@ -74,6 +91,6 @@ export default function Home() {
           <Footer/>
       </PageBody>
 
-    </div>
+    </>
   )
 }
