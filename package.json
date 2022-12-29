@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "dayjs": "^1.11.5",
+    "framer-motion": "^8.0.2",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
