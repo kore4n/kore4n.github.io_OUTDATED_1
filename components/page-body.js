@@ -1,9 +1,9 @@
-import Navbar from "./navbar";
+
 
 export default function PageBody(props) {
+
   return (
-    <div className=' bg-gradient-to-b from-gray-900 to-main-background bg-fixed min-h-screen flex flex-col'>
-        {/* <Navbar classes="text-main-cyan hover:scale-110 duration-100"/> */}
+    <div className=' bg-main-background bg-opacity-80 min-h-screen max-w-7xl flex flex-col shadow-lg shadow-black'>
         {props.children}
     </div>
   );

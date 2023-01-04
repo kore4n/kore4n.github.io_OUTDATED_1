@@ -33,7 +33,7 @@ export default function AnimateInBox(props){
     };
 
     const control = useAnimation();
-    const [ref, inView] = useInView({threshold: 0.30});
+    const [ref, inView] = useInView({threshold: 0.30, triggerOnce: true});
 
     useEffect(() => {
         if (inView) {

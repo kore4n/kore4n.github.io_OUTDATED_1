@@ -11,14 +11,7 @@ module.exports = {
         'main-blue': "#95d3ff",
         'main-cyan': "#22d3ee",
       },
-      // boxShadow: {
-      //   'glow-blue': '0 0 50px 10px rgba(0, 100, 100, 1)',
-      //   'glow-blue-inwards': 'inset 0 0 50px 10px rgba(0, 100, 100, 1)',
-      // },
     },
-    // fontFamily: {
-    //   'cubano': ''
-    // }
   },
   plugins: [],
 }
