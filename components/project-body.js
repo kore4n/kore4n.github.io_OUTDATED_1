@@ -17,6 +17,7 @@ export default function ProjectBody({name, description, imgLink, githubLink, img
             <Head>
                 <title>{name}</title>
                 <meta name={name} content={name} />
+                <meta name="viewport" content="width=device-width, initial-scale=1" /> 
                 <link rel="icon" href="/scared-hamster.ico" />
             </Head>
                 <main>

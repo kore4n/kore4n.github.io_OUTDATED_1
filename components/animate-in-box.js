@@ -22,7 +22,7 @@ export default function AnimateInBox(props){
           opacity: 1, 
           transition: 
           { 
-            delay: 0.5,
+            delay: 0.25,
             duration: 0.5 
           }
         },

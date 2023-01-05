@@ -16,8 +16,6 @@ import Navbar from '../components/navbar'
 import ProjectBox from '../components/project-box'
 import AnimateInBox from '../components/animate-in-box'
 import TinyDivideBar from '../components/tiny-divide-bar'
-import { createContext } from 'react';
-// import IconClasses from '../components/icon-classes';
 
 import GenerateCanvas from '../components/threejs/generate-canvas';
 import TechnologyLogo from '../components/technology';
@@ -25,7 +23,6 @@ import ToolsLogo from '../components/tools-logo';
 import DesignLogo from '../components/design-logo';
 import ProfessionalLogo from '../components/professional-logo';
 
-// const ThemeContext = createContext();
 
 export default function Home() {
     return (
@@ -33,9 +30,9 @@ export default function Home() {
             <Head>
                 <title>Jason Kwan</title>
                 <meta name="Main Page" content="Portfolio" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" /> 
                 <link rel="icon" href="/scared-hamster.ico" />
             </Head>
-            {/* <ThemeContext.Provider value='fill-gray-400 transition hover:scale-110 hover:fill-main-cyan duration-100 inline-block mx-2'> */}
               <main>
                   <PageBody >      
                       <div id="mainHeader" className='pb-96 pt-48 bg-main-background shadow-2xl shadow-black'>

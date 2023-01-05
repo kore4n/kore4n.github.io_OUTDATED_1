@@ -1,6 +1,5 @@
 
 import React from "react";
-
 import ProjectBody from '../components/project-body';
 
 

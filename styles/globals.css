@@ -90,7 +90,11 @@ main {
 
 }
 
-
+/* @media (max-width: 1000px) {
+  main {
+    width: 70vw;
+  }
+} */
 
 h1, h2, h3, blockquote {
   font-family: elevon, sans-serif;
