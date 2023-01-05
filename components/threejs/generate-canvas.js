@@ -16,7 +16,7 @@ function SetUp() {
     renderer.setClearColor("#181E26");
     // renderer.setClearColor("black");
     renderer.setPixelRatio(window.devicePixelRatio);
-    // renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(window.innerWidth, window.innerHeight);
     
     
     // Ugly code to see scrollPosition
